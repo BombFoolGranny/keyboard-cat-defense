@@ -13,37 +13,31 @@ This gnome extension offers a visual method to disable/enable your keyboard so y
 
 Most methods to disable a keyboard, involve using the terminal (or the keyboard itself) to disable it.
 
-This extension offers a visual method to enable/disable the keyboard so you can continue using your system.
+This extension offers a visual method to enable/disable the keyboard so you can continue using your system. It works both on X11 and Wayland.
 
 ![image](https://github.com/onel/leyboard-cat-defense/assets/1862405/e1459bb2-754a-4c65-93af-bf1f61862dec)
 
 
 ## Instalation
 
-#### GNOME extension store (recommended)
-
-You can get the extension from [here](https://extensions.gnome.org/extension/6819/keyboard-cat-defense/).
-
-### Manually
-
-To install manually:
+To install:
 
 1. clone the repo:
 
 ```
-git clone https://github.com/onel/keyboard-cat-defense
+git clone https://github.com/BombFoolGranny/keyboard-cat-defense
 ```
 
 2.  unzip the content into your local `gnome-shell/extensions` folder:
 
 ```sh
-unzip -o ./keyboard-cat-defense/keyboard-cat-defense@onel.github.io.zip -d ~/.local/share/gnome-shell/extensions/keyboard-cat-defense@onel.github.io
+unzip -o ./keyboard-cat-defense/keyboard-cat-defense@bombfoolgranny.github.io.zip -d ~/.local/share/gnome-shell/extensions/keyboard-cat-defense@bombfoolgranny.github.io
 ```
 
 3. enable the extension
 
 ```sh
-gnome-extensions enable keyboard-cat-defense@onel.github.io
+gnome-extensions enable keyboard-cat-defense@bombfoolgranny.github.io
 ```
 
 3. restart GNOME Shell reboot your system
