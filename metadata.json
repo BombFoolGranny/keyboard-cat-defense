@@ -1,6 +1,6 @@
 {
   "name": "Keyboard cat defense",
-  "description": "Protect your keyboard with the most advance system. Disable the keyboard in seconds and continue using your system. The extension requires xinput as a dependency",
+  "description": "Protect your keyboard with the most advance system. Disable the keyboard in seconds and continue using your system. The extension requires xinput and evtest as a dependency. It also requires root privileges for using in Wayland.",
   "uuid": "keyboard-cat-defense@onel.github.io",
   "shell-version": [
     "3.36", "48"
